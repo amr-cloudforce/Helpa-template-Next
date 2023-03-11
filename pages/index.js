@@ -17,17 +17,6 @@ const Home = (props) => {
           <title>Helpa template</title>
           <meta property="og:title" content="Helpa template" />
         </Head>
-        <div>
-          <DangerousHTML
-            html={`<script>
-
-window.onload = function() {
-  alert ("hello there")
-};
-
-</script>`}
-          ></DangerousHTML>
-        </div>
         <Banner></Banner>
         <section className="home-hero">
           <div className="home-main">
@@ -123,9 +112,8 @@ window.onload = function() {
                   </div>
                 </header>
                 <button
-                  type="button"
                   id="alertme"
-                  onClick="alert('hello World')"
+                  type="button"
                   className="home-button01 button"
                 >
                   Alert Me 
@@ -207,6 +195,18 @@ window.onload = function() {
             </div>
           </div>
         </section>
+        <div>
+          <DangerousHTML
+            html={`<script>
+
+import {test} from './extension.js';
+
+test()
+
+
+</script>`}
+          ></DangerousHTML>
+        </div>
         <section className="home-mission">
           <select>
             <option value="Option 1">Option 1</option>
