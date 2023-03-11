@@ -30,7 +30,7 @@ const Home = (props) => {
                 >
                   <div className="home-links">
                     <Link href="/">
-                      <a className="home-link01 navLink">Unsere Mission</a>
+                      <a className="home-link01 navLink">Mission</a>
                     </Link>
                     <Link href="/">
                       <a className="home-link03 navLink">Take Action</a>
