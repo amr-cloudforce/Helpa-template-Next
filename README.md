@@ -1,3 +1,2 @@
 # Helpa-template-Next
 
-# Test
