@@ -1,5 +1,5 @@
 
 export function test()
 {
-    alert ("hello there")
+    alert ("hello man whats up ")
 }
