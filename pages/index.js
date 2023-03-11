@@ -22,14 +22,7 @@ const Home = (props) => {
             html={`<script>
 
 window.onload = function() {
-  // Get the button element
-  const alertMeButton = document.getElementById("alertMeButton");
-
-  // Set the action on click
-  alertMeButton.addEventListener("click", function() {
-    // Show the alert message
-    alert("Hello there");
-  });
+  alert ("hello there")
 };
 
 </script>`}
@@ -132,6 +125,7 @@ window.onload = function() {
                 <button
                   type="button"
                   id="alertme"
+                  onClick="alert('hello World')"
                   className="home-button01 button"
                 >
                   Alert Me 
@@ -311,7 +305,11 @@ window.onload = function() {
                 </div>
               </div>
               <div className="home-button07">
-                <button className="button">
+                <button
+                  type="submit"
+                  onClick="alert('Hello World')"
+                  className="button"
+                >
                   <span>Take action</span>
                 </button>
               </div>
