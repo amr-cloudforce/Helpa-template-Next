@@ -42,7 +42,7 @@ const Home = (props) => {
                       <a className="home-link07 navLink">Contact</a>
                     </Link>
                     <Link href="/feedback">
-                      <a className="navLink">Contact</a>
+                      <a className="navLink">Formular</a>
                     </Link>
                   </div>
                 </div>
