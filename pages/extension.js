@@ -1,4 +1,5 @@
-function test()
+
+export function test()
 {
     alert ("hello there")
 }
