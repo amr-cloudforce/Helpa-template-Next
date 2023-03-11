@@ -109,7 +109,7 @@ const Home = (props) => {
               </header>
               <div className="home-hero-section">
                 <div className="home-header">
-                  <h1 className="home-heading">Whatever</h1>
+                  <h1 className="home-heading">The Headline</h1>
                   <p className="home-caption">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
