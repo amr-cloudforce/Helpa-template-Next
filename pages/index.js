@@ -41,6 +41,9 @@ const Home = (props) => {
                     <Link href="/">
                       <a className="home-link07 navLink">Contact</a>
                     </Link>
+                    <Link href="/feedback">
+                      <a className="navLink">Contact</a>
+                    </Link>
                   </div>
                 </div>
                 <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -69,16 +72,16 @@ const Home = (props) => {
                     </div>
                     <div className="home-links1">
                       <Link href="/">
-                        <a className="home-link09 navLink">Mission</a>
+                        <a className="home-link11 navLink">Mission</a>
                       </Link>
                       <Link href="/">
-                        <a className="home-link11 navLink">Take Action</a>
+                        <a className="home-link13 navLink">Take Action</a>
                       </Link>
                       <Link href="/">
-                        <a className="home-link13 navLink">News</a>
+                        <a className="home-link15 navLink">News</a>
                       </Link>
                       <Link href="/">
-                        <a className="home-link15 navLink">Contact</a>
+                        <a className="home-link17 navLink">Contact</a>
                       </Link>
                     </div>
                     <div className="home-icon-group">
@@ -496,6 +499,7 @@ document.getElementById("company").addEventListener("click", function() {
               </div>
             </div>
           </div>
+          <form className="home-form"></form>
         </div>
         <section className="home-donation-use">
           <div className="home-header08">
@@ -794,16 +798,16 @@ function toggleTos() {
             <Branding></Branding>
             <nav className="home-navigation-links">
               <Link href="/">
-                <a className="home-link17 navLink">Mission</a>
+                <a className="home-link19 navLink">Mission</a>
               </Link>
               <Link href="/">
-                <a className="home-link19 navLink">Take Action</a>
+                <a className="home-link21 navLink">Take Action</a>
               </Link>
               <Link href="/">
-                <a className="home-link21 navLink">News</a>
+                <a className="home-link23 navLink">News</a>
               </Link>
               <Link href="/">
-                <a className="home-link23 navLink">Contact</a>
+                <a className="home-link25 navLink">Contact</a>
               </Link>
             </nav>
           </div>
@@ -1012,9 +1016,6 @@ window.addEventListener("load", function() {
             display: flex;
             flex-direction: column;
           }
-          .home-link09 {
-            text-decoration: none;
-          }
           .home-link11 {
             text-decoration: none;
           }
@@ -1022,6 +1023,9 @@ window.addEventListener("load", function() {
             text-decoration: none;
           }
           .home-link15 {
+            text-decoration: none;
+          }
+          .home-link17 {
             text-decoration: none;
           }
           .home-icon-group {
@@ -1871,6 +1875,7 @@ window.addEventListener("load", function() {
           .home-content08 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
+            height: 414px;
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
@@ -1943,6 +1948,11 @@ window.addEventListener("load", function() {
           .home-button18 {
             color: rgb(255, 255, 255);
             background-color: rgb(0, 0, 0);
+          }
+          .home-form {
+            width: 200px;
+            height: 100px;
+            display: flex;
           }
           .home-donation-use {
             gap: var(--dl-space-space-fiveunits);
@@ -2343,9 +2353,6 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: row;
           }
-          .home-link17 {
-            text-decoration: none;
-          }
           .home-link19 {
             text-decoration: none;
           }
@@ -2353,6 +2360,9 @@ window.addEventListener("load", function() {
             text-decoration: none;
           }
           .home-link23 {
+            text-decoration: none;
+          }
+          .home-link25 {
             text-decoration: none;
           }
           .home-middle {
