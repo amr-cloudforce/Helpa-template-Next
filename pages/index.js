@@ -106,7 +106,7 @@ const Home = (props) => {
               </header>
               <div className="home-hero-section">
                 <div className="home-header">
-                  <h1 className="home-heading">You can make a difference</h1>
+                  <h1 className="home-heading">Whatever</h1>
                   <p className="home-caption">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -1056,7 +1056,7 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-heading {
-            color: #222223;
+            color: rgb(34, 34, 35);
             font-size: 70px;
             font-style: normal;
             font-family: Lora;
